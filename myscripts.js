@@ -13,7 +13,7 @@ function buttonAction() {
 
     let pronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
     
-    button.innerText = new_name +" ("+pronoun +")";
+    button.innerText = `${new_name} (${pronoun})`;
 }
 document.getElementById("button").addEventListener("click", buttonAction);
 
