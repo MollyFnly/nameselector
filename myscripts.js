@@ -1,4 +1,4 @@
-let names = ["Gwen", "Vi", "Saint", "The", "Lavender", "Tost", "Legion", "Aofie", "Anura"];
+let names = ["Gwen", "Vi", "Saint", "The", "Lavender", "Tost", "Legion", "Aofie", "Anura", "Stick"];
 
 function buttonAction() {
     let button = document.getElementById("button");
