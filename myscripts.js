@@ -11,3 +11,5 @@ function buttonAction() {
     button.innerText = new_name;
 }
 document.getElementById("button").addEventListener("click", buttonAction);
+
+buttonAction();
