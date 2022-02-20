@@ -5,6 +5,7 @@
     font-size: 20vw;
     box-sizing: border-box;
     background: rgb(82, 82, 102);
+    border: none;
 }
 
 :root { 
