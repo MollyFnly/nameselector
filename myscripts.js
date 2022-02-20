@@ -1,4 +1,6 @@
 let names = ["Gwen", "Vi", "Saint", "The", "Lavender", "Tost", "Legion", "Aofie", "Anura", "Stick"];
+let pronouns = ["she/her", "they/them", "it/its"]
+
 
 function buttonAction() {
     let button = document.getElementById("button");
@@ -8,7 +10,10 @@ function buttonAction() {
     if(new_name == old_name) {
         new_name = names[(index + 1 ) % names.length]
     }
-    button.innerText = new_name;
+
+    let pronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
+    
+    button.innerText = new_name +" ("+pronoun +")";
 }
 document.getElementById("button").addEventListener("click", buttonAction);
 
