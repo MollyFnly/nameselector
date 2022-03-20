@@ -1,4 +1,4 @@
-let names = ["Gwen", "Vi", "Saint", "The", "Lavender", "Tost", "Anura", "Stick", "Asura", "Ariadne", "Icarus"];
+let names = ["Gwen", "Vi", "Saint", "The", "Lavender", "Tost", "Anura", "Stick", "Asura", "Ariadne", "Icarus", "Bee"];
 let pronouns = ["she/her", "they/them", "it/its"]
 
 
